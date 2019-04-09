@@ -13,7 +13,7 @@
     <!-- Donde indicamos el tipo de programa usado para hacer la web -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Mmedia-Curso Front CIFE</title>
+    <title>Formulario-Curso Front CIFE</title>
     <!-- <style>
         body {background-color: bisque}
     </style> -->
@@ -36,46 +36,33 @@
                 <li><a href="./index.html">Inicio</a></li>
                 <li><a href="./index.html#bloques">Bloques</a></li><!-- para moverse dentro de la página -->
                 <li><a href="./index.html#en_linea">En_linea</a></li>
-                <li><a href="#">Multimedia</a></li> <!-- url relativa al documento -->
-                <li><a href="./form.html">Formulario</a></li>
+                <li><a href="./mmedia.html">Multimedia</a></li> <!-- url relativa al documento -->
+                <li><a href="#">Formulario</a></li>
             </ul>
         </nav>
     </header>
     <div class="content-wrapper"></div>
-    <main>
-        <section id="mmedia">
-        <header>
-        <h2>Elementos embebidos multimedia</h2> 
-        </header>
-        <p>Veremos como utilizar</p>
-        <ul>
-            <li>Imágenes</li>
+        <main>
+            <section id="form">
+                <header>
+                    <h2>Formulario</h2>
+                </header>
+                <p>Están disponibles los siguientes controles</p>
                 <ul>
-                    <li>png</li>
-                    <li>gif</li>
-                    <li>png</li>
-                    <li>(webp)</li><!-- para saber si lo soporta o no, se usa la web: https://caniuse.com/ -->
-                    <li>svg</li>
+                    <li>input - text</li>
+                    <li>text area</li>
+                    <li>checkbox</li>
+                    <li>radio butons</li>
+                    <li>select / options</li>
+                    <li>botones</li>
                 </ul>
-            <li>Video y Audio</li>
-                <ul>
-                    <li>mp4</li>
-                    <li>ogg</li>
-                    <li>webm</li>
-                </ul>
-            <li>Elementos de navegació gráficos</li>
-        </ul>
-        <h3>Imágenes</h3>
-        <!-- tiene un espacio entre medias porque tiene un retorno de carro entre las imagenes, ya que son como palabras. Esto se soluciona en CSS. -->
-        <img src="./assets/cachorros-de-pastor-belga.jpg" alt="Cachorros de Pastor belga">
-        <img src="./assets/mastin_tibetano.png" alt="Cachorros de Mastín tibetano">
-        <figure><!-- elemento de grouping para guardar elementos multimedia dentro (imágenes o video) -->
-            <img src="./assets/tropical-sunrise.webp" alt="Amanecer tropical">
-            <figcaption>Amanecer tropical</figcaption>
-        </figure>
-        <img src="./assets/logo.svg" alt="logotipo">
-        </section>
-    </main>
+                <h3>Ejemplo de formulario</h3>
+                <form action="https://jsonplaceholder.typicode.com/users" method="post"><!-- <form> es igual que <form get> -->
+                    <input type="text" name="nombre" id="nombre" placeholder="Nombre"><!-- con <input:text> -->
+                    <button type="submit"><!-- con<button submit> -->Enviar</button>
+                </form>
+            </section>
+        </main>
     <aside id="publicidad">
         <p>Publicidad</p>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque, totam quam incidunt veniam dolor ea suscipit blanditiis. Corporis, voluptatum optio. Sint reiciendis saepe ratione veniam eligendi, ipsa similique. Dolor, inventore.</p>
