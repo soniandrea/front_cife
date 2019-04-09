@@ -20,3 +20,12 @@ h1 {
 .verde {
     color: darkgreen;
 }
+img {
+    /* img es un elemento inline block, es un hibrido entre inline y block */
+    width: 45%;
+}
+figure {
+    /* para quitar los margenes predetermiados de de <figure> */
+    margin: 0;
+    padding: 0;
+}

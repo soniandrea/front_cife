@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="ES">
 
 <head>
     <!-- Metadatos de <head> -->
@@ -35,16 +35,51 @@
             <ul>
                 <li><a href="./index.html">Inicio</a></li><!-- para no generar tráfico innecesario -->
                 <li><a href="./index.html#bloques">Bloques</a></li><!-- para moverse dentro de la página -->
-                <li><a href="./index.html#en-linea">En-linea</a></li>
+                <li><a href="./index.html#en_linea">En_linea</a></li>
                 <li><a href="#">Multimedia</a></li> <!-- url relativa al documento -->
             </ul>
         </nav>
     </header>
-    <section>
-    <header>
-       <h2>Multimedia</h2> 
-    </header>
-   </section>
+    <div class="content-wrapper"></div>
+    <main>
+        <section id="mmedia">
+        <header>
+        <h2>Elementos embebidos multimedia</h2> 
+        </header>
+        <p>Veremos como utilizar</p>
+        <ul>
+            <li>Imágenes</li>
+                <ul>
+                    <li>png</li>
+                    <li>gif</li>
+                    <li>png</li>
+                    <li>(webp)</li><!-- para saber si lo soporta o no, se usa la web: https://caniuse.com/ -->
+                    <li>svg</li>
+                </ul>
+            <li>Video y Audio</li>
+                <ul>
+                    <li>mp4</li>
+                    <li>ogg</li>
+                    <li>webm</li>
+                </ul>
+            <li>Elementos de navegació gráficos</li>
+        </ul>
+        <h3>Imágenes</h3>
+        <!-- tiene un espacio entre medias porque tiene un retorno de carro entre las imagenes, ya que son como palabras. Esto se soluciona en CSS. -->
+        <img src="./assets/cachorros-de-pastor-belga.jpg" alt="Cachorros de Pastor belga">
+        <img src="./assets/mastin_tibetano.png" alt="Cachorros de Mastín tibetano">
+        <figure><!-- elemento de grouping para guardar elementos multimedia dentro (imágenes o video) -->
+            <img src="./assets/tropical-sunrise.webp" alt="Amanecer tropical">
+            <figcaption>Amanecer tropical</figcaption>
+        </figure>
+        <img src="./assets/logo.svg" alt="logotipo">
+        </section>
+    </main>
+    <aside id="publicidad">
+        <p>Publicidad</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque, totam quam incidunt veniam dolor ea suscipit blanditiis. Corporis, voluptatum optio. Sint reiciendis saepe ratione veniam eligendi, ipsa similique. Dolor, inventore.</p>
+    </aside>
+    </div>
    <footer>
         <address>Sonia Martín</address>
     </footer>

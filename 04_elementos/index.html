@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="es">
-
+<!-- Funciones del id: identificar, utilizar url internas y manipular desde JS  -->
 <head>
     <!-- Metadatos de <head> -->
     <!-- Añadimos 4 metadatos que contenga
@@ -26,7 +26,11 @@
 
     <script src="./js/app.js">/* Para enganchar los archivos de JS */</script>
 </head>
-
+<!-- 
+    Lo mas importante de un sitio web es el contenido, la información.
+    HTML es una herramienta para organizar, no se ponen secciones porque sí, sino, para decidir lo que cada uno quiera, todo depende de cada uno. Todo es lo que se tiene en la cabeza y reflejarlo de esa manera.
+    Es una cuestion de arquitectura.
+-->
 <body>
     <header>
         <h1>Elementos de HTML🐙</h1>
@@ -35,20 +39,20 @@
             <ul>
                 <li><a href="#">Inicio</a></li><!-- para no generar tráfico innecesario -->
                 <li><a href="#bloques">Bloques</a></li><!-- para moverse dentro de la página -->
-                <li><a href="#en-linea">En-linea</a></li>
+                <li><a href="#en_linea">En_linea</a></li>
                 <li><a href="./mmedia.html">Multimedia</a></li> <!-- url relativa al documento -->
             </ul>
         </nav>
     </header>
-    <div class="content-wrapper">
-        <section>
+    <div class="content-wrapper"><!-- podria ser un mind en vez de un div -->
+        <section id="doc_html">
             <header>
                 <h2>El documento</h2>
                 <p>html</p>
             </header>
 
         </section>
-        <section>
+        <section id="metadatos">
             <h2>Metadatos</h2>
             <p>Los metadatos se crean empleando las siguientes etiquetas</p>
             <ul>
@@ -66,9 +70,9 @@
                 <h2>Elementos en bloque</h2>
             </header>
 
-            <section>
+            <section id="sectioning"><!-- se refleja en la estructura -->
                 <h3>Sectioning (elementos de sección)</h3>
-                <p>Antes de <abbr title="HyperText Markup Language 5">HTML5 </abbr>: body, y los encabezados (h1...h6) daban lugar al seccionado implícito</p>
+                <p>Antes de <abbr title="HyperText Markup Language 5">HTML5 </abbr><!-- abreviatura -->: body, y los encabezados (h1...h6) daban lugar al seccionado implícito</p>
                 <p>En HTML5 aparecen los elementos semánticos de seccionado explícito:
                 </p>
                 <ul>
@@ -144,7 +148,7 @@
                     </footer>
                 </blockquote>
             </section>
-            <section>
+            <section id="grouping">
                 <h3>Grouping (elementos de agrupamiento)</h3>
                 <h4>Párrafos</h4>
                 <p>p, pre, blockquote
@@ -188,11 +192,11 @@
 
             </section>
         </section> 
-        <section id="en-linea">
+        <section id="en_linea">
             <header>
                 <h2>Elementos en linea</h2>
             </header>
-            <section>
+            <section id="hiperenlaces">
                 <h3>Hiperenlaces</h3>
                 <p>Corresponden a la etiqueta a con el atributo href para indicar la url</p>
                 <ul>
@@ -203,7 +207,7 @@
                 </ul>
                 <p>Ejemplo de url absoluta si accedemos al <a href="https://www.w3.org/TR/html52/" target="_blank"rel="external noreferrer">estandar en el w3 </a> </p><!-- nore -->
             </section>
-            <section>
+            <section id="text_level">
                 <h3>Text Level</h3>
                 <h4>Elementos en linea neutros</h4> 
                 <ul>
@@ -248,10 +252,14 @@
 
 
             </section>
-        </section>       
+        </section>
+        <aside id="publicidad">
+            <p>Publicidad</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque, totam quam incidunt veniam dolor ea suscipit blanditiis. Corporis, voluptatum optio. Sint reiciendis saepe ratione veniam eligendi, ipsa similique. Dolor, inventore.</p>
+        </aside>       
     </div>
     <footer>
-        <address>Sonia Martín</address>
+        <address>Sonia Martín -</address>
     </footer>
 </body>
 
