@@ -1,0 +1,18 @@
+section{
+    position: relative;
+}
+
+section p {
+    padding: 1rem;
+    background-color: coral
+}
+.relativo {
+    position: relative;
+    top: 3rem; /* si es positivo, va abajo, si es negativo, arriba. si es 0 se queda donde está situado al principio */
+    left: 3rem;
+}
+.absoluto {
+    position: absolute;
+    top: 3rem; /* desde el origen (desde el body) */
+    left: 3rem;
+}
