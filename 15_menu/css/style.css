@@ -1,0 +1,80 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Pacifico', cursive;
+}
+h2, h1 {
+    font-family: 'Underdog', cursive;
+}
+.main-header {
+    background-color: brown;
+    color: bisque;
+    padding: 2rem;
+
+}
+
+.main-header div {
+    margin: 2rem;
+    position: relative;/* de referencia en posicionamiento */    
+}
+
+.main-header h1 {
+    margin: 0;
+    padding: 0;
+}
+
+.main-header p {
+    margin-bottom: 0;
+    margin-top: 0.2rem;
+}
+
+.menu ol, .menu ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.menu a {
+    color: inherit;/* para que herede el color */
+    text-decoration: none;    
+}
+
+.main-menu /* = body>header>nav (una u otra) */{
+    border: 1px solid;
+    border-radius: 5px;
+    width: fit-content;/* adaptar bloque al contenido interno */
+    position: absolute;
+    top: 2px;
+    right: 1rem;
+}
+
+.main-menu li {
+    display: inline-block
+}
+
+.main-menu a {
+    display: block;
+    padding: 1rem;
+}
+
+.content-wrapper {
+    margin: 2rem;
+}
+
+.main-footer {
+    background-color: brown;
+    color: bisque;
+    padding-top: 1.2rem;
+    padding-bottom: 1.5rem;
+    text-align: center;
+}
+
+.social-menu {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    font-size: 2rem;
+    
+}
+.social-menu li {
+    display: inline;
+}
