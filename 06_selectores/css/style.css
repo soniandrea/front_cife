@@ -16,7 +16,7 @@ div~p {
 }
 
 /* Selector de hermanos adyacentes : operador + */
-
+/* para poner el signo es con qlt gr + 4 '+space+space' */
 div+p {
     color: darkgoldenrod;
 }

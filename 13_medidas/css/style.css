@@ -1,5 +1,8 @@
 section {
     font-size: 0.8em;
+    background-color: bisque;
+    min-height: 80vh;
+    /* overflow: hidden; overflow: auto ; overflow: visible == overflow; */
 }
 
 div {
@@ -11,4 +14,14 @@ p {
     font-size: 0.8rem;
     /* font-size: 16px; */
     padding: 2em;
+}
+.target:hover+.efecto {
+    /* text-indent: 2rem: */
+    color: brown;
+
+}
+
+
+body {
+    background-color: bisque
 }

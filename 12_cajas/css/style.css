@@ -16,7 +16,7 @@ body {
 }
 
 .clearfix {
-    clear: both;
+    clear: both; /* para separar */
 }
 
 .real {
