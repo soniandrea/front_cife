@@ -1,0 +1,53 @@
+/* forma correcta para poner las imagenes */
+img {
+    width: fit-content; /* --> se puede obviar, ya que es el comportamiento normal de una imagen */
+    max-width: 100%;
+}
+
+/* p {
+    text-align: justify;
+} */
+
+.image-wrapper-50 {
+    width: 50%;
+    float: right;
+    margin-left: 1rem;
+}
+
+.image-wrapper-25 {
+    width: 25%;
+}
+
+.image-wrapper-75 {
+    width: 75%;
+}
+.clearfix {
+    clear: both;
+    border-top: 1px solid gainsboro;
+}
+
+.fondo-texto {
+    /* PARA AÑADIR FONDO CON TEXTO SOLO, QUE SE AJUSTE EL TEXTO*/
+    padding: 2rem;
+    background-image: url(../assets/3boats.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;/* background-size: contain; --> no es muy común su uso*/ /* background-size: 100%; --> como alternativa 
+    */ 
+}
+
+.fondos {
+    height: 100vh;
+    background-color: #468CE1;
+    background-image: url(../assets/3boats.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-blend-mode: lighten; /* para hacer efectos con el color de fonfo y la imagen */
+    opacity: 0.5;
+}
+
+.fondos h2 {
+    text-align: center;
+    line-height: 70vh;
+    /*  color: #F12524; */
+    color: aliceblue;
+}
