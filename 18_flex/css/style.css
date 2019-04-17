@@ -1,0 +1,27 @@
+section.flex {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;/* ajustarse a las líneas */
+    border: 1px double gainsboro;
+    height: 40vh;
+    /* alineacion en el eje vertical */
+    justify-content: flex-start;
+    /* alineacion en el eje secundario */
+    align-items: flex-start;
+    
+    /* alineación entre filas */
+    align-content: flex-start;
+}
+
+p.item {
+    margin: 1rem 0rem;
+    padding: 1rem;
+    background-color: coral;
+    border: 1px solid;
+}
+
+p.item:nth-child(4) {
+    padding: 2rem, 1rem;
+    font-size: 3rem;
+    order: 1;
+}
