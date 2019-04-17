@@ -1,0 +1,118 @@
+*/* , *::after, *::before *:after, *:before */ {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Pacifico', cursive;
+}
+
+.main-header {
+/*     display: flex;
+    justify-content: space-between;
+    align-items: center; */
+    background-color: brown;
+    color: bisque;
+    padding: 1rem 2rem 1rem 2rem;
+    font-family: 'Underdog', cursive;
+}
+
+.main-header h1 {
+    margin: 0;
+    padding: 0;
+}
+
+.main-header p {
+    margin-bottom: 0;
+    margin-top: 0.2rem;
+   /*  display: none; 
+   visibility: hidden;*/
+}
+
+
+.menu ol, .menu ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.menu a {
+    color: inherit;/* para que herede el color */
+    text-decoration: none;    
+}
+
+
+.main-menu ol {
+    display: flex;
+    border: 1px solid;
+    border-radius: 5px;
+    width: fit-content;
+    display: flex;
+}
+
+.main-menu a {
+    display: block;
+    padding: 0.7rem 1rem;
+}
+
+.content-wrapper {
+    margin: 2rem;
+    display: flex;
+}
+
+.main-content {
+    /* width: 70%; */
+    /* Atajo para flex-grow, flex-shrink flex-basis*/
+    /* flex: 3 1 10%; */
+    background-color: bisque;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-top: 1rem;
+}
+
+.main-aside {
+    /* width: 30%; */
+    /* flex: 3 1 90%; */
+    padding-left: 1rem;
+    padding-right: 1rem;
+    background-color: gainsboro;
+    border: 1px solid;
+}
+
+/* CSS de la tabla */
+
+table {
+    width: 100%;
+    empty-cells: hide;/* para que no se muestren las celdas vacias */
+    /* border-collapse: collapse;    para que se colapse*/
+}
+
+table:hover {
+    border-collapse: collapse; /* para hacer animacion */
+}
+
+td,th {
+    border: 1px solid black;
+}
+
+/* CSS del footer */
+
+.main-footer {
+    background-color: brown;
+    color: bisque;
+    padding-top: 1.2rem;
+    padding-bottom: 1.5rem;
+    text-align: center;
+}
+
+.social-menu {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    font-size: 2rem;
+    
+}
+.social-menu li {
+    display: inline;
+    color: rgb(81, 81, 208, 0.5);
+}
