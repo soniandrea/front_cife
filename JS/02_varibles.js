@@ -12,7 +12,7 @@ let data
 console.log(data)
 console.log(typeof data)
 
-
+//A - DATAS Primitivos
 // strings
 data = 'Hola amigos'
 console.log(data)
@@ -29,6 +29,8 @@ data = true
 data = false
 console.log(data)
 console.log(typeof data)
+
+//B - Datos referenciados
 
 //object
 
