@@ -1,3 +1,5 @@
+'use strict'
+
 // Ambitos o  scope de las variables
 
 // Ambito global
@@ -15,16 +17,17 @@ function prueba(){
 // Lo mismo con BUENAS PRÁCTICAS
 
 let var2 = 30
+pruebaBien(var2)
+
 
 function pruebaBien (x) {
     console.log(x)
 }
 
-pruebaBien(var2)
+
 
 
 // Nuevo en ES6 usar let en lugar de var
-
 
 function condicional(){
     let ext = 22
@@ -34,7 +37,7 @@ function condicional(){
         console.log(data)
     }
     console.log(ext)
-    // console.log(data) daría un error
+    // console.log(data)  // daría un error
 }
 
 condicional()
