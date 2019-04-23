@@ -9,10 +9,14 @@ function duplicar(x) {
 }
 
 
-let user = {nombre: 'Pepe', edad: 23}
-matricular (user)
-console.log(user)
+let user1 = {nombre: 'Pepe', edad: 23}
+matricular (user1, 'HTML')
+console.log(user1)
+let user2 = {nombre: 'Rosa'}
+matricular(user2)
+console.log(user2)
 
-function matricular(obj) {
-    obj.curso = 'JavaScript'
+function matricular(obj, curso = 'JavaScript') {
+    obj.curso = curso
+    //user1.curso = curso -> para ir de uno en uno
 }
