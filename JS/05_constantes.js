@@ -3,7 +3,7 @@ data = 30
 
 console.log(data)
 
-const DATA = 25 // las constantes se ponen en mayúscla
+const DATA = 25 // las constantes se ponen en mayúscla cuando son de tipo primitivo
 // DATA = 50 daría un error
 
 console.log(DATA)
@@ -21,7 +21,8 @@ const user = {
 user.altura = 179
 user.name= 'Carlos'
 
-user = 23
+// user = 23 daría un error
+// user = {} daría un error
 
 console.log (user)
 console.log (user.name)
