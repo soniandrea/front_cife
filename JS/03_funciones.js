@@ -1,6 +1,7 @@
-function suma (x,y) {
-    let r = x + y
-    return r
+function suma (x, y) {
+    /*let r = x + y
+    return r */
+    return x + y
 }
 
 function mostrar(texto){
@@ -13,10 +14,12 @@ let number2 = 20
 let result = suma (number1, number2)
 mostrar( result )
 
+
 // No se cumple la separación de intereses o conceptos (separation of concerns)
 
 function sumarMal(x , y) {
     let r = x + y
     console.log(r)
 }
+
 sumarMal(2 , 5)
