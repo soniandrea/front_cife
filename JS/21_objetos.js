@@ -19,6 +19,10 @@ let user1 = {
     },
     altura: 179
 }
+// let user1 = new object() --> crea una zona de memoria, se llama funión constructiva porque lleva el new por delante. No es necesario poner " new object"
+// La clase es un molde fijo y let es un prototipo variable.
+// un objeto son coleccion de propiedad y puede ser de diferetes tipos
+// user1.nombre: 'Pepe'
 
 let user2 = {
     nombre: 'Rosa',
