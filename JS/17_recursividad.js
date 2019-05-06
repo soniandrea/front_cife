@@ -27,6 +27,7 @@ function factorial(num) {
 
 let n = 0
 n = -3
+n = 4.6
 n = 1
 n = 5
 n = 6

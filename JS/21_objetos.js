@@ -28,3 +28,6 @@ let user2 = {
 
 user1.nombre = 'Jose'
 user1.curso = 'Back'
+
+user1.saludar ()
+
