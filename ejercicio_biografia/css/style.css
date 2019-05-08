@@ -1,63 +1,13 @@
-
-img {
-    width: fit-content;
-    max-width: 100%;
+body {
+    background-color: lightcyan;
 }
 
-
-.image-wrapper-50 {
-    width: 50%;
-    float: right;
-    margin-left: 1rem;
-}
-
-.image-wrapper-25 {
-    width: 25%;
-}
-
-.image-wrapper-75 {
-    width: 75%;
-}
-.clearfix {
-    clear: both;
-    border-top: 1px solid gainsboro;
-}
-
-
-/* .fondos {
-    height: 100vh;
-    background-color: #468CE1;
-    background-image: url(../assets/3boats.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-blend-mode: lighten; para hacer efectos con el color de fondo y la imagen
-     opacity: 0.5; 
-}*/
-
-.fondos {
-    height: 100vh;
-    position: relative;
-}
-
-.fondos::after {
-    content: "";
-    display: block;
-    height: 100%;
-    width: 100%;
-    position: absolute;
-    top: 0;
-    background-color: #468CE1;
-    background-image: url(../assets/3boats.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    opacity: 0.4;
-    /* hecho en clase el miércoles */
-}
-
-.fondos h2 {
+h1 {
+    font-family: 'Baloo Bhai', cursive;
     text-align: center;
-    /* line-height: 70vh; */
-    /*  color: #F12524; */
-    padding-top: 25vh;
-    color: rgb(253, 2, 2);
+    background-color: red;
+}
+
+h2 {
+    font-family: 'Questrial', sans-serif;
 }
