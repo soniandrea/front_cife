@@ -20,7 +20,7 @@ Date.prototype.toStringEnEspañol =  function () {
     console.log(fecha)
     console.log(fecha.getFullYear())
 
-    let nacim = new Date(1965,7,31)
+    let nacim = new Date(2000,10,29)
     console.log(nacim.toLocaleDateString())
     console.log(nacim.toLocaleTimeString())
     console.log(nacim.toLocaleString())
