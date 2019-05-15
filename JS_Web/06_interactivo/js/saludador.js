@@ -27,5 +27,5 @@ export function main () {
         aQuien = inNombre.value
         console.log(msg[1] + aQuien)
     }
-
+    
 }
