@@ -1,10 +1,9 @@
 body {
-    background-color: azure; font-family: 'Montserrat', sans-serif;
+    background-color: bisque
+
 }
-img {
-    width: 50% 
-}
-h1 {
+
+.h1 {
     font-size: 2em;
     margin-block-start: 0.67em;
     margin-block-end: 0.67em;
@@ -12,23 +11,25 @@ h1 {
     margin-inline-end: 0px;
     font-weight: bold;
 }
-.content-wrapper{
-    
+
+.content-wrapper {
     margin-left: 2rem;
     margin-right: 2rem;
 }
+
 .verde {
     color: darkgreen;
 }
-img {
-    /* img es un elemento inline block, es un hibrido entre inline y block */
+
+img, embed {
     width: 45%;
 }
+
 figure {
-    /* para quitar los margenes predetermiados de de <figure> */
     margin: 0;
     padding: 0;
 }
+
 video {
     width: 100%;
 }
